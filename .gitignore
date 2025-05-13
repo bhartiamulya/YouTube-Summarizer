@@ -7,8 +7,14 @@ ENV/
 env/ 
 build/ 
 dist/ 
-.env 
+*.egg-info/ 
+.installed.cfg 
+*.egg 
 .idea/ 
 .vscode/ 
+*.swp 
+*.swo 
 .DS_Store 
 Thumbs.db 
+.env 
+*.log 
